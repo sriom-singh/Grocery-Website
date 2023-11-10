@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/shopping-cart_blue.png" />
+
+    <title>Grocery Mart</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="#">
+          <img src="images/shopping-cart_blue.png" alt="grocery-logo"
+        /></a>
+        <a href="#"> <h2>Grocery Mart</h2></a>
+      </div>
+      <div class="text-container">
+        <div id="search">
+          <span class="dropdown">
+            <p>Foods</p>
+            <img src="images/down-arrow.png" alt="" />
+            <p id="line">|</p>
+          </span>
+          <input
+            type="search"
+            placeholder="Search for Products, Brand and More"
+            name="search"
+          />
+          <p id="line">|</p>
+          <img src="images/search.svg" alt="" />
+        </div>
+        <ul>
+          <li id="btn">
+            <img src="images/user.png" id="user-icon" alt="" />Sign in<img
+              src="images/arrow-down-sign-to-navigate.png"
+              alt=""
+              id="white-arrow2"
+            />
+          </li>
+          <li>
+            More<img
+              src="images/arrow-down-sign-to-navigate.png"
+              alt=""
+              id="white-arrow"
+            />
+          </li>
+          <li id="btn"><img src="images/shopping-cart.png" alt="" />Cart</li>
+        </ul>
+      </div>
+      <div class="menu">
+        <img src="images/menu-bar.png" alt="">
+      </div>
+    </header>
+
+    <div class="nav">
+      <div id="item1">
+        <span>
+          <img src="images/ac8550.webp" alt="" />
+        </span>
+        <div class="nav-text">
+          <p>Packaged Food</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+
+      <div id="item2">
+        <span>
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/9fbd36.jpg?q=100"
+            alt=""
+          />
+        </span>
+        <div class="nav-text">
+          <p>Snacks & Beverages</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+
+      <div id="item3">
+        <span>
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/50474c.jpg?q=100"
+            alt=""
+          />
+        </span>
+        <div class="nav-text">
+          <p>Staples</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+
+      <div id="item4">
+        <span>
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/7670e2.jpg?q=100"
+            alt=""
+          />
+        </span>
+        <div class="nav-text">
+          <p>Personal & Baby Care</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+
+      <div id="item5">
+        <span>
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+            alt=""
+          />
+        </span>
+        <div class="nav-text">
+          <p>Household Care</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+
+      <div id="item6">
+        <span>
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/8014b1.jpg?q=100"
+            alt=""
+          />
+        </span>
+        <div class="nav-text">
+          <p>Dairy & Eggs</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+
+      <div>
+        <span>
+          <img
+            src="https://rukminim2.flixcart.com/flap/128/128/image/e6e0ecc56771471a.png?q=100"
+            alt=""
+          />
+        </span>
+        <div class="nav-text">
+          <p>Home & Kitchen</p>
+          <img src="images/down-arrow.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden" id="hide">
+      <div class="mainList">
+        <div class="center-arrow"><span class="triangle">▲</span></div>
+        <div class="list">
+          <ul id="arrow-list">
+            <li>
+              <a href="">Breakfast Cereals</a>
+              <span id="down-arrow1"
+                ><img src="images/down-arrow.png" alt=""
+              /></span>
+            </li>
+            <li>
+              <a href="">Breakfast Cereals</a>
+              <span id="down-arrow1"
+                ><img src="images/down-arrow.png" alt=""
+              /></span>
+            </li>
+            <li>
+              <a href="">Breakfast Cereals</a>
+              <span id="down-arrow1"
+                ><img src="images/down-arrow.png" alt=""
+              /></span>
+            </li>
+            <li>
+              <a href="">Breakfast Cereals</a>
+              <span id="down-arrow1"
+                ><img src="images/down-arrow.png" alt=""
+              /></span>
+            </li>
+            <li>
+              <a href="">Breakfast Cereals</a>
+              <span id="down-arrow1"
+                ><img src="images/down-arrow.png" alt=""
+              /></span>
+            </li>
+            <li>
+              <a href="">Breakfast Cereals</a>
+              <span id="down-arrow1"
+                ><img src="images/down-arrow.png" alt=""
+              /></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subList" id="slist"></div>
+    </div>
+
+    <section class="offer" >
+      <div class="sale">
+        <img src="images/man2.png" alt="" id="man" />
+
+        <img src="images/19898297_SL_042921_42480_57.jpg" alt="" id="img" />
+      
+      </div>
+      <p>
+        Whether you work from home or office or other workplaces, daily grocery
+        items are a requisite for everybody. Regardless of the size of the
+        family or where you live, one can easily browse for the required food or
+        other daily use products and have them brought to your home. Explore the
+        variety of products, whether oils or foodgrains, from the online stock
+        and choose the quantity required. You can save the time otherwise lost
+        in waiting in lengthy queues for billing and payments by easily adding
+        the chosen items to your cart online. Select the required date for
+        delivery and pay with a suitable payment option. This will help you
+        receive the items whenever you need them and in the available quantity.
+        Essentials needed every day, like spices, daals, sugar, coffee powder,
+        salt, etc., can be easily shopped online and delivered to your home.
+        Other items like cleaning liquids, shower gels, fabric softeners,
+        toothpaste, etc., can also be bought online. Buy grocery and more from
+        brands such as Kellogg’s, Tata Gold, Parle G, Lays, etc. Order the
+        online grocery comfortably from home for timely doorstep delivery. You
+        may also place an order for the comfort and convenience of your loved
+        ones who cannot move out of the house and shop. The information you are
+        reading has been last updated on 27-Oct-23.
+      </p>
+
+      <h1>Today's Offers</h1>
+      <div class="slider-icon s-left">
+        <img src="images/arrow-right.png" id="slide-back" alt="" />
+      </div>
+      <div class="slider" id="slider-id">
+        
+        <div class="slider1" >
+          <div class="item-image">
+            <img src="images/basket-full-vegetables.jpg" alt="" />
+          </div>
+          <div class="item-des">
+            <h4>Vegetables</h4>
+            <p>Only for Today</p>
+            <h5>Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+          <!-- <div class="off">
+            <div><p id="add">Add to Bucket</p></div>
+          </div> -->
+        </div>
+        <div class="slider1">
+          <div class="item-image">
+            <img src="images/shampoo.jpg" alt="" />
+          </div>
+          <div class="item-des">
+            <h4>Shampoos</h4>
+            <p>Only for Today</p>
+            <h5>Up to 70% Off</h5>
+            <button>Add Items</button>
+          </div>
+        </div>
+
+        <div class="slider1">
+          <div class="item-image">
+            <img src="images/ac8550.webp" alt="" />
+          </div>
+          <div class="item-des">
+            <h4>Packaged Food</h4>
+            <p>Only for Today</p>
+            <h5>Up to 20% Off</h5>
+            <button>Add Items</button>
+          </div>
+          <!-- <div class="off">
+            <div><p id="add">Add to Bucket</p></div>
+          </div> -->
+        </div>
+
+        <div class="slider1">
+          <div class="item-image">
+            <img
+              src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+              alt=""
+            />
+          </div>
+          <div class="item-des">
+            <h4>Household Care</h4>
+            <p>Only for Today</p>
+            <h5>Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+        </div>
+
+        <div class="slider1">
+          <div class="item-image" id="item-js">
+            <img
+              src="images/basket-full-vegetables.jpg"
+              alt=""
+              id="image-maggie"
+            />
+          </div>
+          <div class="item-des">
+            <h4 id="name">Vegetables</h4>
+            <p id="des">Only for Today</p>
+            <h5 id="offer">Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+          <!-- <div class="off">
+            <div><p id="add">Add to Bucket</p></div>
+          </div>  -->
+        </div>
+        <div class="slider1">
+          <div class="item-image">
+            <img
+              src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+              alt=""
+            />
+          </div>
+          <div class="item-des">
+            <h4>Household Care</h4>
+            <p>Only for Today</p>
+            <h5>Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+        </div>
+        <div class="slider1">
+          <div class="item-image">
+            <img
+              src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+              alt=""
+            />
+          </div>
+          <div class="item-des">
+            <h4>Household Care</h4>
+            <p>Only for Today</p>
+            <h5>Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+        </div>
+        <div class="slider1">
+          <div class="item-image">
+            <img
+              src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+              alt=""
+            />
+          </div>
+          <div class="item-des">
+            <h4>Household Care</h4>
+            <p>Only for Today</p>
+            <h5>Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+        </div>
+
+        <div class="slider1">
+          <div class="item-image">
+            <img
+              src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100"
+              alt=""
+            />
+          </div>
+          <div class="item-des">
+            <h4>Household Care</h4>
+            <p>Only for Today</p>
+            <h5>Up to 50% Off</h5>
+            <button>Add Items</button>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="slider-icon s-right">
+        <img src="images/arrow-right.png" id="slide-forward" alt="" />
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="product1">
+        <div class="product-image">
+          <img src="images/basket-full-vegetables.jpg" alt="" />
+        </div>
+        <div class="product-desciption">
+          <p id="product-name">Exo Touch & Shine Round Dishwash Bar</p>
+          <p id="quantity">2 x 0.7 kg</p>
+
+          <span id="price-description">
+            <p id="price">₹134</p>
+            <p id="mrp">₹172</p>
+            <p id="offer">22%off</p>
+          </span>
+
+          <button id="add-btn" >Add Item</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js" defer></script>
+  </body>
+</html>
